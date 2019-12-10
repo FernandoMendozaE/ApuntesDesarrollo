@@ -1,3 +1,5 @@
+![Javascript logo](https://www.manuprieto.es/wp-content/uploads/2017/07/javascript-icon.png)
+
 # JavaScript
 
 ```javascript
