@@ -1,4 +1,4 @@
-### JavaScript
+# JavaScript
 
 ```javascript
 // function declaration
@@ -9,7 +9,7 @@ function saludar(nombreCliente) {
 saludar('Juan')
 ```
 
-> Enviando variables a una función
+## Funciones con parametros
 
 ```javascript
 //function expression
@@ -28,7 +28,9 @@ actividad('Pedro', 'Aprender JavaScript')
 actividad('Antonio')
 ```
 
-- **Arrow functions:** Las funciones de flecha se introdujeron con ES6 como una nueva sintaxis para escribir funciones de JavaScript. Ahorran tiempo a los desarrolladores y simplifican el alcance de la función.
+## Arrow functions
+
+- **Definición:** Las funciones de flecha se introdujeron con ES6 como una nueva sintaxis para escribir funciones de JavaScript. Ahorran tiempo a los desarrolladores y simplifican el alcance de la función.
 
 ```javascript
 // arrow functions
