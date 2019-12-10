@@ -2,33 +2,33 @@
 
 # JavaScript
 
-```javascript
-// function declaration
-function saludar(nombreCliente) {
-  console.log('Bienvenido ' + nombreCliente)
-}
-
-saludar('Juan')
-```
+> ```javascript
+> // function declaration
+> function saludar(nombreCliente) {
+>   console.log('Bienvenido ' + nombreCliente)
+> }
+>
+> saludar('Juan')
+> ```
 
 ## Funciones con parametros
 
-```javascript
-//function expression
-const cliente = function(nombreCliente) {
-  console.log('Mostrando datos del cliente: ', nombreCliente)
-}
-
-cliente('Juan')
-
-// Parametros por default en las funciones
-function actividad(nombre = 'Walter White', actividad = 'Enseñar Quimica') {
-  console.log(`La persona ${nombre}, esta realizando la actividad ${actividad}`)
-}
-actividad('Juan', 'Aprender JavaScript')
-actividad('Pedro', 'Aprender JavaScript')
-actividad('Antonio')
-```
+> ```javascript
+> //function expression
+> const cliente = function(nombreCliente) {
+>   console.log('Mostrando datos del cliente: ', nombreCliente)
+> }
+>
+> cliente('Juan')
+>
+> // Parametros por default en las funciones
+> function actividad(nombre = 'Walter White', actividad = 'Enseñar Quimica') {
+>   console.log(`La persona ${nombre}, esta realizando la actividad ${actividad}`)
+> }
+> actividad('Juan', 'Aprender JavaScript')
+> actividad('Pedro', 'Aprender JavaScript')
+> actividad('Antonio')
+> ```
 
 ## Arrow functions
 
