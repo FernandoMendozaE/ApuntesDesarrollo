@@ -25,3 +25,36 @@ Configuracion del archivo _Dockerfile_:
   > node_module
   > npm-debug.log
   > ```
+
+## Paso 2
+
+Creación de una **_imagen_**
+En la terminal:
+
+creación de una imagen
+
+> ~/Desktop/Docker/**docker build _nombre_imagen_ .**
+
+ver las imagenes creadas
+
+> ~/Desktop/Docker/**docker image**
+
+ejecuctar la imagen (-it: muestra por consola como se esta ejecutando, -p: cambia puerto "4000" de la ejecución del proyecto)
+
+> ~/Desktop/Docker/**docker run -it -p 4000:3000 _nombre_imagen_**
+
+ejecutando imagen en un proceso
+
+> ~/Desktop/Docker/**docker run -d -p 4000:3000 _nombre_imagen_**
+
+comprobar que procesos se estan ejecutando
+
+> ~/Desktop/Docker/**docker ps**
+
+parar un proceso que se estan ejecutando
+
+> ~/Desktop/Docker/**docker stop _id_docker_**
+
+ver todo los procesos que se estaban ejecutando
+
+> ~/Desktop/Docker/**docker -a**
