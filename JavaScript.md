@@ -134,6 +134,7 @@ Un objeto es una colección de propiedades, y una propiedad es una asociación e
     > // "b: 2"
     > // "c: 3"
     >
+    > // EJEMPLO  2
     > var miAuto = new Object()
     > miAuto.marca = 'Ford'
     > miAuto.modelo = 'Mustang'
