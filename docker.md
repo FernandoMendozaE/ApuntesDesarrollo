@@ -33,7 +33,7 @@ En la terminal:
 
 creación de una imagen
 
-> ~/Desktop/Docker/**docker build _nombre_imagen_ .**
+> ~/Desktop/Docker/**docker build -t _nombre_imagen_ .**
 
 ver las imagenes creadas
 
