@@ -37,7 +37,7 @@ creación de una imagen
 
 ver las imagenes creadas
 
-> ~/Desktop/Docker/**docker image**
+> ~/Desktop/Docker/**docker images**
 
 ejecuctar la imagen (-it: muestra por consola como se esta ejecutando, -p: cambia puerto "4000" de la ejecución del proyecto)
 
