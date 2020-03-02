@@ -2,9 +2,7 @@
 
 # PM2
 
-## Funciones
-
-Intalación de PM2:
+## Intalación
 
 > ```
 > npm install -g pm2
@@ -122,4 +120,4 @@ Comando **startup**
   > pm2 ecosystem
   > ```
 
-<!-- ![github](http://elfreneticoinformatico.com/wp-content/uploads/2017/10/GitHubLogo.png) -->
+![github](https://github.com/FernandoMendozaE/ApuntesDesarrollo/blob/master/image/ConfiguracionPM2.PNG)
