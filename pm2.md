@@ -120,4 +120,5 @@ Comando **startup**
   > pm2 ecosystem
   > ```
 
-![github](https://github.com/FernandoMendozaE/ApuntesDesarrollo/blob/master/image/ConfiguracionPM2.PNG)
+- _Configuración del archivo:_
+  ![github](https://github.com/FernandoMendozaE/ApuntesDesarrollo/blob/master/image/ConfiguracionPM2.PNG)
