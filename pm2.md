@@ -121,4 +121,5 @@ Comando **startup**
   > ```
 
 - _Configuración del archivo:_
+
   ![github](https://github.com/FernandoMendozaE/ApuntesDesarrollo/blob/master/image/ConfiguracionPM2.PNG)
