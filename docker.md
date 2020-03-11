@@ -1,6 +1,6 @@
 # Docker
 
-## Paso 1
+# Paso 1
 
 Crear el archivo **_Dockerfile_** en la raiz del proyecto actual.
 
@@ -26,35 +26,34 @@ Configuracion del archivo _Dockerfile_:
   > npm-debug.log
   > ```
 
-## Paso 2
+# Paso 2
 
-Creación de una **_imagen_**
-En la terminal:
+## Ejemplo creación de imagen docker
 
-creación de una imagen
+- Creación de una imagen :
 
-> ~/Desktop/Docker/**docker build -t _nombre_imagen_ .**
+  > ~/Desktop/Docker/**docker build -t _nombre_imagen_ .**
 
-ver las imagenes creadas
+- Ver las imagenes creadas :
 
-> ~/Desktop/Docker/**docker images**
+  > ~/Desktop/Docker/**docker images**
 
-ejecuctar la imagen (-it: muestra por consola como se esta ejecutando, -p: cambia puerto "4000" de la ejecución del proyecto)
+- Ejecuctar la imagen " _**-it**_ : muestra por consola como se esta ejecutando, _**-p**_ : cambia puerto "4000" de la ejecución del proyecto" :
 
-> ~/Desktop/Docker/**docker run -it -p 4000:3000 _nombre_imagen_**
+  > ~/Desktop/Docker/**docker run -it -p 4000:3000 _nombre_imagen_**
 
-ejecutando imagen en un proceso
+- Ejecutar la imagen "_**-d**_ : en un proceso" :
 
-> ~/Desktop/Docker/**docker run -d -p 4000:3000 _nombre_imagen_**
+  > ~/Desktop/Docker/**docker run -d -p 4000:3000 _nombre_imagen_**
 
-comprobar que procesos se estan ejecutando
+- Comprobar que procesos se estan ejecutando :
 
-> ~/Desktop/Docker/**docker ps**
+  > ~/Desktop/Docker/**docker ps**
 
-parar un proceso que se estan ejecutando
+- Parar un proceso que se estan ejecutando :
 
-> ~/Desktop/Docker/**docker stop _id_docker_**
+  > ~/Desktop/Docker/**docker stop _id_docker_**
 
-ver todo los procesos que se estaban ejecutando
+- Ver todo los procesos que se estaban ejecutando :
 
-> ~/Desktop/Docker/**docker -a**
+  > ~/Desktop/Docker/**docker -a**
