@@ -57,9 +57,14 @@ Configuracion del archivo _Dockerfile_:
 - Ver todo los procesos que se estaban ejecutando :
 
   > ~/Desktop/Docker/**docker -a**
+  > s
+
+---
 
 > #### Created by Fernando Mendoza Escobar with :blue_heart: :yellow_heart: :earth_americas:
 >
 > [Fernando](https://www.facebook.com/fernando.mendozaescobar)
 >
 > [My Github](https://github.com/FernandoMendozaE)
+
+---
