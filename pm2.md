@@ -1,4 +1,4 @@
-![PM2 logo](https://raw.githubusercontent.com/Unitech/pm2/development/pres/pm2-v4.png)
+![PM2 logo](https://github.com/FernandoMendozaE/ApuntesDesarrollo/blob/master/image/pm2.png)
 
 # PM2
 
