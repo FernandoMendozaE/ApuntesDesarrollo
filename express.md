@@ -1,6 +1,4 @@
-![PM2 logo](https://github.com/FernandoMendozaE/ApuntesDesarrollo/blob/master/image/express.PNG)
-
-# EXPRESS
+![EXPRESS logo](https://github.com/FernandoMendozaE/ApuntesDesarrollo/blob/master/image/express.PNG)
 
 ## Intalación
 
@@ -10,14 +8,14 @@
 
 ## Creación de un servicio básico en Express.
 
-1. Configuración iniciales.
+1. Configuración inicial
 
    > ```javascript
    > const express = require("express"); //llamando al modulo express;
    > const app = express(); //obtiene el objeto express
    > ```
 
-2. Configurando un puerto en express.
+2. Configurando un puerto en express
 
    > ```javascript
    > app.listen(5000, () => {
@@ -29,7 +27,7 @@
 
 - Tipos de peticiones HTTP:
 
-  1. Petición **_GET_**.
+  1. Petición **_GET_**
 
      > ```javascript
      > app.get("/user", (req, res) => {
@@ -37,10 +35,10 @@
      >     username: "Cameron",
      >     lastname: "Howe"
      >   }); //responde la petición
-     > }); //recibe una peticion HTTP(get) y realiza       >algo
+     > }); //recibe una peticion HTTP (get) y realiza algo
      > ```
 
-  2. Petición **_POST_**.
+  2. Petición **_POST_**
 
      > ```javascript
      > //:id : request parms (parametro recivido   mediante la url)
@@ -53,7 +51,7 @@
      >
      > _Observacón_: Generando rutas dinamicas (:id). Ejemplo de envió por url "localhost:5000/user/456"
 
-  3. Petición **_PUT_**.
+  3. Petición **_PUT_**
 
      > ```javascript
      > //:id : request parms (parametro recivido   mediante la url)
@@ -65,7 +63,7 @@
      >
      > _Observacón_: Generando rutas dinamicas (:id). Ejemplo de envió por url "localhost:5000/user/456"
 
-  4. Petición **_DELETE_**.
+  4. Petición **_DELETE_**
 
      > ```javascript
      > //:id : request parms (parametro recivido   mediante la url)
@@ -76,7 +74,7 @@
      >
      > _Observacón_: Generando rutas dinamicas (:id). Ejemplo de envió por url "localhost:5000/user/456"
 
-- Función de express **_all_**
+- Función **_all_** de express
 
   La función _all_ se encarga de ejecutar todo contenido que tiene antes de ir la ruta (get, post, etc)
 
@@ -85,7 +83,7 @@
   > app.all("/user", (req, res, next) => {
   >   console.log("Por aqui paso");
   >   next();
-  > }); // método express encargado de pasen toda las ruras (/user)
+  > }); // función express encargado de que pasen toda las rutas (/user)
   > ```
 
 - _Configuración del archivo:_
