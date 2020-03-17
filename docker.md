@@ -1,4 +1,4 @@
-# Docker
+![Docker logo](https://github.com/FernandoMendozaE/ApuntesDesarrollo/blob/master/image/docker.png)
 
 # Paso 1
 
