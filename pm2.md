@@ -1,7 +1,5 @@
 ![PM2 logo](https://github.com/FernandoMendozaE/ApuntesDesarrollo/blob/master/image/pm2.png)
 
-# PM2
-
 ## Intalación
 
 > ```
@@ -123,3 +121,9 @@ Comando **startup**
 - _Configuración del archivo:_
 
   ![github](https://github.com/FernandoMendozaE/ApuntesDesarrollo/blob/master/image/ConfiguracionPM2.PNG)
+
+> #### Created by Fernando Mendoza Escobar with :blue_heart: :yellow_heart: :earth_americas:
+>
+> [Fernando](https://www.facebook.com/fernando.mendozaescobar)
+>
+> [My Github](https://github.com/FernandoMendozaE)
