@@ -66,5 +66,3 @@ Configuracion del archivo _Dockerfile_:
 > [Fernando](https://www.facebook.com/fernando.mendozaescobar)
 >
 > [My Github](https://github.com/FernandoMendozaE)
-
----
