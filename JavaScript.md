@@ -187,9 +187,7 @@ Un objeto es una colección de propiedades, y una propiedad es una asociación e
     > // expected output: Array ["a", "b", "c"]
     > ```
 
-    > ```
-    >
-    > ```
+---
 
 > #### Created by Fernando Mendoza Escobar with :blue_heart: :yellow_heart: :earth_americas:
 >
