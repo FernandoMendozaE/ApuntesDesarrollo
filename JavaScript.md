@@ -189,8 +189,8 @@ Un objeto es una colección de propiedades, y una propiedad es una asociación e
 
 ---
 
-> #### Created by Fernando Mendoza Escobar with :blue_heart: :yellow_heart: :earth_americas:
->
-> [Fernando](https://www.facebook.com/fernando.mendozaescobar)
->
-> [My Github](https://github.com/FernandoMendozaE)
+#### Created by Fernando Mendoza Escobar with :blue_heart: :yellow_heart: :earth_americas:
+
+[Fernando](https://www.facebook.com/fernando.mendozaescobar)
+
+[My Github](https://github.com/FernandoMendozaE)
