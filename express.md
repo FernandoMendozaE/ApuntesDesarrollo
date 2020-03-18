@@ -86,6 +86,56 @@
   > }); // función express encargado de que pasen toda las rutas (/user)
   > ```
 
+## Middlewares
+
+Un middleware es una función que se puede ejecutar antes o después del manejo de una ruta.
+
+- Ejemplo básico:
+
+  > ```javascript
+  > function logger(req, res, next) {
+  >   console.log(
+  >     `Router Received: ${req.protocol}://${req.get("host")}${
+  >       req.originalUrl
+  >     }` // muestra la ruta (host:   servidor)
+  >   );
+  >   next();
+  > }
+  >
+  > // Middlewares
+  > /**
+  >  * Procesa datos antes de llegar a las rutas
+  >  */
+  > app.use(express.json()); // linea de código encargado de hacer conocer el formato JSON
+  > app.use(logger);
+  > ```
+
+- Morgan: Es un middleware que nos permite registrar fácilmente solicitudes, errores y más en la consola.
+
+  - **Intalación**
+    > ```
+    > npm i morgan
+    > ```
+  - **Uso:**
+    > ```javascript
+    > var morgan = require("morgan");
+    > app.use(morgan("dev"));
+    > ```
+
+  [Documentación de Morgan](https://www.npmjs.com/package/morgan)
+
+  > ```
+  >
+  > ```
+  >
+  > ```
+  >
+  > ```
+  >
+  > ```
+  >
+  > ```
+
 - _Configuración del archivo:_
 
   ![github](https://github.com/FernandoMendozaE/ApuntesDesarrollo/blob/master/image/ConfiguracionPM2.PNG)
