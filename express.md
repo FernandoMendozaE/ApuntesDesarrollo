@@ -119,7 +119,7 @@ Un middleware es una función que se puede ejecutar antes o después del manejo 
   - **Uso:**
     > ```javascript
     > var morgan = require("morgan");
-    > app.use(morgan("dev"));
+    > app.use(morgan("dev")); //muestra si llego la petición exitosamente
     > ```
 
   [Documentación de Morgan](https://www.npmjs.com/package/morgan)
