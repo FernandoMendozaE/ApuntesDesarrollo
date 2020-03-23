@@ -57,7 +57,6 @@ Configuracion del archivo _Dockerfile_:
 - Ver todo los procesos que se estaban ejecutando :
 
   > ~/Desktop/Docker/**docker -a**
-  > s
 
 ---
 
