@@ -11,16 +11,16 @@
 1. Configuración inicial
 
    > ```javascript
-   > const express = require("express"); //llamando al modulo express
-   > const app = express(); //obtiene el objeto express
+   > const express = require('express') //llamando al modulo express
+   > const app = express() //obtiene el objeto express
    > ```
 
 2. Configurando un puerto en express
 
    > ```javascript
    > app.listen(5000, () => {
-   >   console.log("Serve on port 5000");
-   > }); //levantar el servicio
+   >   console.log('Serve on port 5000')
+   > }) //levantar el servicio
    > ```
 
 ## Routing (enrutamiento)
@@ -30,23 +30,23 @@
   1. Petición **_GET_**
 
      > ```javascript
-     > app.get("/user", (req, res) => {
+     > app.get('/user', (req, res) => {
      >   res.json({
-     >     username: "Cameron",
-     >     lastname: "Howe"
-     >   }); //responde la petición
-     > }); //recibe una peticion HTTP (get) y realiza algo
+     >     username: 'Cameron',
+     >     lastname: 'Howe'
+     >   }) //responde la petición
+     > }) //recibe una peticion HTTP (get) y realiza algo
      > ```
 
   2. Petición **_POST_**
 
      > ```javascript
-     > //:id : request parms (parametro recivido mediante la url)
-     > app.post("/user/:id", (req, res) => {
-     >   console.log(req.body); //obtiene datos del request json
-     >   console.log(req.params); //obtiene datos del id (url) parametros
-     >   res.send("POST REQUEST RECEIVED"); //request post
-     > });
+     > //:id : request parms (parametro reciido mediante la url)
+     > app.post('/user/:id', (req, res) => {
+     >   console.log(req.body) //obtiene datos del request json
+     >   console.log(req.params) //obtiene datos del id (url) parametros
+     >   res.send('POST REQUEST RECEIVED') //request post
+     > })
      > ```
      >
      > **_Observacón_**: Generando rutas dinamicas (:id). Ejemplo de envió por url "localhost:5000/user/456"
@@ -54,11 +54,11 @@
   3. Petición **_PUT_**
 
      > ```javascript
-     > //:id : request parms (parametro recivido mediante la url)
-     > app.put("/user/:userId", (req, res) => {
-     >   console.log(req.body);
-     >   res.send(`User ${req.params.userId} update`);
-     > });
+     > //:id : request parms (parametro reciido mediante la url)
+     > app.put('/user/:userId', (req, res) => {
+     >   console.log(req.body)
+     >   res.send(`User ${req.params.userId} update`)
+     > })
      > ```
      >
      > **_Observacón_**: Generando rutas dinamicas (:id). Ejemplo de envió por url "localhost:5000/user/456"
@@ -66,10 +66,10 @@
   4. Petición **_DELETE_**
 
      > ```javascript
-     > //:id : request parms (parametro recivido mediante la url)
-     > app.delete("/user/:id", (req, res) => {
-     >   res.send(`User ${req.params.id} deleted`); //responde la petición
-     > });
+     > //:id : request parms (parametro reciido mediante la url)
+     > app.delete('/user/:id', (req, res) => {
+     >   res.send(`User ${req.params.id} deleted`) //responde la petición
+     > })
      > ```
      >
      > **_Observacón_**: Generando rutas dinamicas (:id). Ejemplo de envió por url "localhost:5000/user/456"
@@ -80,10 +80,10 @@
 
   > ```javascript
   > // next encargado de que pase a la siguiente ruta (get, post, etc)
-  > app.all("/user", (req, res, next) => {
-  >   console.log("Por aqui paso");
-  >   next();
-  > }); // función express encargado de que pasen toda las rutas (/user)
+  > app.all('/user', (req, res, next) => {
+  >   console.log('Por aqui paso')
+  >   next()
+  > }) // función express encargado de que pasen toda las rutas (/user)
   > ```
 
 ## Middlewares
@@ -95,19 +95,19 @@ Un middleware es una función que se puede ejecutar antes o después del manejo 
   > ```javascript
   > function logger(req, res, next) {
   >   console.log(
-  >     `Router Received: ${req.protocol}://${req.get("host")}${
+  >     `Router Received: ${req.protocol}://${req.get('host')}${
   >       req.originalUrl
   >     }` // muestra la ruta (host:   servidor)
-  >   );
-  >   next();
+  >   )
+  >   next()
   > }
   >
   > // Middlewares
   > /**
   >  * Procesa datos antes de llegar a las rutas
   >  */
-  > app.use(express.json()); // linea de código encargado de hacer conocer el formato JSON
-  > app.use(logger);
+  > app.use(express.json()) // linea de código encargado de hacer conocer el formato JSON
+  > app.use(logger)
   > ```
 
 - Morgan: Es un middleware que nos permite registrar fácilmente solicitudes, errores y más en la consola.
@@ -118,8 +118,8 @@ Un middleware es una función que se puede ejecutar antes o después del manejo 
     > ```
   - **Uso:**
     > ```javascript
-    > var morgan = require("morgan");
-    > app.use(morgan("dev")); //muestra si llego la petición exitosamente
+    > var morgan = require('morgan')
+    > app.use(morgan('dev')) //muestra si llego la petición exitosamente
     > ```
 
   [Documentación de Morgan](https://www.npmjs.com/package/morgan)
