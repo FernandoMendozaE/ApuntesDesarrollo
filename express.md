@@ -41,7 +41,7 @@
   2. Petición **_POST_**
 
      > ```javascript
-     > //:id : request parms (parametro reciido mediante la url)
+     > //:id : request parms (parametro recibido mediante la url)
      > app.post('/user/:id', (req, res) => {
      >   console.log(req.body) //obtiene datos del request json
      >   console.log(req.params) //obtiene datos del id (url) parametros
@@ -54,7 +54,7 @@
   3. Petición **_PUT_**
 
      > ```javascript
-     > //:id : request parms (parametro reciido mediante la url)
+     > //:id : request parms (parametro recibido mediante la url)
      > app.put('/user/:userId', (req, res) => {
      >   console.log(req.body)
      >   res.send(`User ${req.params.userId} update`)
@@ -66,7 +66,7 @@
   4. Petición **_DELETE_**
 
      > ```javascript
-     > //:id : request parms (parametro reciido mediante la url)
+     > //:id : request parms (parametro recibido mediante la url)
      > app.delete('/user/:id', (req, res) => {
      >   res.send(`User ${req.params.id} deleted`) //responde la petición
      > })
