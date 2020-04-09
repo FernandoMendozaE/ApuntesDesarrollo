@@ -96,12 +96,24 @@ Comando **log**
   > pm2 log
   > ```
 
-Comando **startup** (solo en linux)
+## Comando **startup** (linux)
 
 - _Reinicia los procesos automaticamente al reiniciar_
 
   > ```
-  > pm2 startup
+  > pm2 startup systemd
+  > ```
+
+- _Ver el estado del proceso del servicio_
+
+  > ```
+  > sudo systemctl status pm2-root
+  > ```
+
+- _Activar el estado del proceso del servicio_
+
+  > ```
+  > sudo systemctl start pm2-root
   > ```
 
 - _Cancelar los procesos automaticamente_
@@ -110,7 +122,7 @@ Comando **startup** (solo en linux)
   > pm2 unstartup
   > ```
 
-Comando **startup**
+## Comando **startup** (windows, linux)
 
 - _Crea un archivo de configuración_
 
