@@ -107,13 +107,13 @@ Comando **log**
 - _Ver el estado del proceso del servicio_
 
   > ```
-  > sudo systemctl status pm2-root
+  > systemctl status pm2-root
   > ```
 
 - _Activar el estado del proceso del servicio_
 
   > ```
-  > sudo systemctl start pm2-root
+  > systemctl start pm2-root
   > ```
 
 - _Cancelar los procesos automaticamente_
